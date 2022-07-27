@@ -1,0 +1,11 @@
+/* ID images sobre nós */
+#foto-equipe-esquerda{
+    width: 700px;
+    height: 600px;
+    padding-left: 5%;
+}
+#foto-equipe-direita{
+    width: 600px;
+    height: 600px;
+    padding-right: 5%;
+}
