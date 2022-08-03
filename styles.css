@@ -1,11 +1,15 @@
-#carrossel{
-    width: 400px;
-    height: 400px;
-    padding-left: 20%;
+#carouselExampleIndicators{
+  width: 150%;
+  height: 150%;
+  padding-left: 70%;
 }
 
 #texto-capa{
-    width: 400px;
-    height: 400px;
-    padding-top: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+#capa{
+    display: inline-block;
+    padding: 20%;
 }
