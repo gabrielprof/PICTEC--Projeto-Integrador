@@ -1,3 +1,25 @@
+body{
+    background-color: #7D3408 ;
+}
+
+/* TITULOS*/
+.titulos {
+    color: #CC8A09;
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+.titulos-h2{
+}
+.titulos-h3{
+
+}
+/* TEXTOS */
+.paragrafos{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
 /* ID images sobre nós */
 #foto-equipe-esquerda{
     width: 700px;
@@ -9,3 +31,4 @@
     height: 600px;
     padding-right: 5%;
 }
+
