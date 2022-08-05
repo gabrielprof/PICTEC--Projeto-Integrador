@@ -1,15 +1,10 @@
-#carouselExampleIndicators{
-  width: 150%;
-  height: 150%;
-  padding-left: 70%;
-}
-
-#texto-capa{
-    width: 100px;
-    height: 100px;
+#titulo{
+  padding-top: 3%;
+  text-align: center;
 }
 
 #capa{
-    display: inline-block;
-    padding: 20%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
