@@ -1,8 +1,17 @@
 body{
-    background-color: #7D3408 ;
+    background-color: #7D3408;
+}
+::selection{
+    color: aqua;
 }
 
 /* TITULOS*/
+.letra-capital-titulo{
+    color: #FFC34E;
+    font-size: 180%;
+    font-family: "Rubik Marker Hatch", cursive;
+    font-weight: 200;
+}
 .titulos {
     color: #CC8A09;
     font-family: font-family: 'Montserrat', sans-serif;
@@ -32,3 +41,13 @@ body{
     padding-right: 5%;
 }
 
+.secao-comum{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+.imagens-contato{
+    width: 100px;
+    height: 100px;
+}
