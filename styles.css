@@ -36,3 +36,67 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+body{
+    background-color: #7D3408;
+}
+::selection{
+    color: aqua;
+}
+
+/* TITULOS*/
+
+.letra-capital-titulo{
+    color: #FFC34E;
+    font-size: 180%;
+    font-family: "Rubik Marker Hatch", cursive;
+    font-weight: 200;
+}
+.titulos {
+    color: #CC8A09;
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
+/* TEXTOS */
+.paragrafos{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.rodape-texto{
+    color: white !important;
+}
+
+/* ID e images sobre nós */
+
+#sobre-nos{
+    background-color: black;
+}
+#foto-equipe-esquerda{
+    width: 700px;
+    height: 600px;
+    padding-left: 5%;
+}
+#foto-equipe-direita{
+    width: 600px;
+    height: 600px;
+    padding-right: 5%;
+}
+
+.secao-comum{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+#icone-email{
+    width: 80px;
+    height: 55px;
+}
+#icone-git{
+    width: 80px;
+    height: 80px;
+}
+.email-rodape{
+    margin-bottom: 1% !important;
+}
