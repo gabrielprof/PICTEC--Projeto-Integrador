@@ -1,11 +1,13 @@
 #titulo{
   padding-top: 3%;
   text-align: center;
+  font-family: "Kalam";
 }
 
 #capa{
   padding-top: 5%;
 }
+
 #texto-capa{
   color: #FFE0A3;
   font-family: 'Libre Baskerville', serif;
@@ -24,11 +26,15 @@
   padding-left: 52%;
   padding-top: 4%;
   padding-bottom: 4%;
+  /* background-image: url("Images/aspa.png");
+  background-position: 850px;
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 
 #manoel-1{
   padding-left: 40%;
-  
+
 }
 
 #manoel-3{
@@ -48,6 +54,7 @@
 
 body{
     background-color: #7D3408;
+    overflow-x: hidden;
 }
 ::selection{
     color: aqua;
@@ -80,6 +87,9 @@ body{
 
 #sobre-nos{
     background-color: black;
+    padding-bottom: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 #foto-equipe-esquerda{
     width: 700px;
