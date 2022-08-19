@@ -5,8 +5,12 @@
 
 #capa{
   padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+}
+#texto-capa{
+  color: #FFE0A3;
+  font-family: 'Libre Baskerville', serif;
+  text-align: justify;
+  padding-top: 8%;
 }
 
 #conhecendo-manoel{
@@ -15,6 +19,7 @@
 
 #citacao{
   font-family: 'Nothing You Could Do', cursive;
+  color: #FFC34E;
   font-size: 300%;
   padding-left: 52%;
   padding-top: 4%;
@@ -24,6 +29,10 @@
 #manoel-1{
   padding-left: 40%;
   
+}
+
+#manoel-3{
+  padding-left: 20%;
 }
 
 #descricao-manoel{
@@ -49,8 +58,8 @@ body{
 .letra-capital-titulo{
     color: #FFC34E;
     font-size: 180%;
-    font-family: "Rubik Marker Hatch", cursive;
-    font-weight: 200;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
 }
 .titulos {
     color: #CC8A09;
