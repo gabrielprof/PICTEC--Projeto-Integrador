@@ -7,8 +7,9 @@ a:hover{
 }
 
 #titulo{
-  padding-top: 3%;
+  padding-top: 9%;
   text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
 
 #capa{
@@ -22,6 +23,52 @@ a:hover{
   padding-top: 8%;
 }
 
+@media (max-width: 1360px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 6%;
+  }
+}
+
+@media (max-width: 1265px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 3%;
+  }
+}
+
+@media (max-width: 1180px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1016px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 1017px) and (max-width: 1098px) {
+  #texto-capa{
+    font-size: 90%;
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 2%;
+  }
+}
+
 #conhecendo-manoel{
   font-size: 200%;
 }
@@ -31,23 +78,78 @@ a:hover{
   color: #FFC34E;
   font-size: 300%;
   padding-left: 52%;
-  padding-top: 4%;
+  padding-top: 7%;
   padding-bottom: 4%;
-  /* background-image: url("Images/aspa.png");
-  background-position: 850px;
+  min-height: 300px;
+  background-image: url("Images/aspa.png");
+  background-position: 800px;
   background-repeat: no-repeat;
-  background-size: contain; */
+  background-size: contain;
+  background-attachment: fixed;
 }
 
-/* @media (max-width: 1400px) {
+@media (max-width: 1570px) {
+  #citacao{
+    background-position: 600px;
+  }
+}
+
+@media (max-width: 1250px) {
   #citacao{
     background-position: 500px;
   }
-} */
+}
 
-#manoel-1{
+@media (max-width: 1000px) {
+  #citacao{
+    background-position: 400px;
+  }
+}
+
+@media (max-width: 860px) {
+  #citacao{
+    background-position: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  #citacao{
+    background-position: 200px;
+  }
+}
+
+#conhecendo-manoel-img1{
   padding-left: 40%;
+}
 
+@media (max-width: 942px) {
+  #conhecendo-manoel-img1{
+    padding-left: 36%;
+  }
+}
+
+@media (max-width: 674px) {
+  #conhecendo-manoel-img1{
+    padding-left: 33%;
+  }
+}
+
+@media (max-width: 590px) {
+  #conhecendo-manoel-img1{
+    padding-left: 29%;
+  }
+}
+
+@media (max-width: 485px) {
+  #conhecendo-manoel-img1{
+    padding-left: 23%;
+  }
+}
+
+@media (max-width: 410px) {
+  #conhecendo-manoel-img1{
+    padding-left: 20%;
+  }
 }
 
 #manoel-3{
@@ -60,7 +162,7 @@ a:hover{
   padding-right: 20%;
 }
 
-#linha-1-conhecendo-manoel{
+.linhas-conhecendo-manoel{
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -86,10 +188,22 @@ body{
     font-family: font-family: 'Montserrat', sans-serif;
 }
 
+#titulo-artigos{
+  color: #FFE0A3;
+}
+
+#letra-capital-artigo{
+  color: #FFE0A3;
+  font-size: 180%;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+}
+
 /* TEXTOS */
 .paragrafos{
     color: #FFE0A3;
     font-family: 'Libre Baskerville', serif;
+    text-align: justify;
 }
 
 .rodape-texto{
@@ -128,11 +242,13 @@ body{
 #icone-email{
     width: 14%;
     height: 14%;
+    padding-top: 2%;
 }
 
 #icone-git{
     width: 14%;
     height: 14%;
+    padding-top: 2%;
 }
 
 @media (max-width: 1550px) {
@@ -150,10 +266,12 @@ body{
   #icone-email{
       width: 16%;
       height: 16%;
+      padding-top: 3%;
   }
   #icone-git{
       width: 16%;
       height: 16%;
+      padding-top: 3%;
   }
 }
 
@@ -161,10 +279,12 @@ body{
   #icone-email{
       width: 17%;
       height: 17%;
+      padding-top: 4%;
   }
   #icone-git{
       width: 17%;
       height: 17%;
+      padding-top: 4%;
   }
 }
 
@@ -194,10 +314,12 @@ body{
   #icone-email{
       width: 20%;
       height: 20%;
+      padding-top: 5%;
   }
   #icone-git{
       width: 20%;
       height: 20%;
+      padding-top: 5%;
   }
 }
 
@@ -225,23 +347,40 @@ body{
 
 @media (max-width: 750px) {
   #icone-email{
-      width: 26%;
-      height: 26%;
+      width: 29%;
+      height: 29%;
+      padding-top: 6%;
   }
   #icone-git{
-      width: 26%;
-      height: 26%;
+      width: 29%;
+      height: 29%;
+      padding-top: 6%;
   }
 }
 
 @media (max-width: 600px) {
   #icone-email{
-      width: 30%;
-      height: 30%;
+      width: 37%;
+      height: 37%;
   }
   #icone-git{
-      width: 30%;
-      height: 30%;
+      width: 37%;
+      height: 37%;
+  }
+}
+
+@media (max-width: 537px) {
+  #icone-email{
+      width: 60%;
+      height: 60%;
+      padding-top: 7%;
+      padding-left: 10%;
+  }
+  #icone-git{
+      width: 60%;
+      height: 60%;
+      padding-top: 7%;
+      padding-left: 10%;
   }
 }
 
@@ -254,14 +393,16 @@ body{
   opacity: 90%;
 }
 
+.cards-artigos:hover{
+  background-color: #FFD788;
+  opacity: 90%;
+}
+
 .parallax {
-  /* The image used */
   background-image: url("Images/manoel-2.jpg");
 
-  /* Set a specific height */
-  min-height: 500px;
+  min-width: 100%;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
