@@ -1,7 +1,14 @@
+a {
+  color: #FFC34E;
+}
+
+a:hover{
+  color: #FFD788;
+}
+
 #titulo{
   padding-top: 3%;
   text-align: center;
-  font-family: "Kalam";
 }
 
 #capa{
@@ -31,6 +38,12 @@
   background-repeat: no-repeat;
   background-size: contain; */
 }
+
+/* @media (max-width: 1400px) {
+  #citacao{
+    background-position: 500px;
+  }
+} */
 
 #manoel-1{
   padding-left: 40%;
@@ -85,6 +98,10 @@ body{
 
 /* ID e images sobre nós */
 
+#artigos{
+  padding-bottom: 3%;
+}
+
 #sobre-nos{
     background-color: black;
     padding-bottom: 3%;
@@ -109,13 +126,144 @@ body{
 }
 
 #icone-email{
-    width: 80px;
-    height: 55px;
+    width: 14%;
+    height: 14%;
 }
+
 #icone-git{
-    width: 80px;
-    height: 80px;
+    width: 14%;
+    height: 14%;
 }
-.email-rodape{
-    margin-bottom: 1% !important;
+
+@media (max-width: 1550px) {
+  #icone-email{
+      width: 15%;
+      height: 15%;
+  }
+  #icone-git{
+      width: 15%;
+      height: 15%;
+  }
+}
+
+@media (max-width: 1450px) {
+  #icone-email{
+      width: 16%;
+      height: 16%;
+  }
+  #icone-git{
+      width: 16%;
+      height: 16%;
+  }
+}
+
+@media (max-width: 1350px) {
+  #icone-email{
+      width: 17%;
+      height: 17%;
+  }
+  #icone-git{
+      width: 17%;
+      height: 17%;
+  }
+}
+
+@media (max-width: 1250px) {
+  #icone-email{
+      width: 18%;
+      height: 18%;
+  }
+  #icone-git{
+      width: 18%;
+      height: 18%;
+  }
+}
+
+@media (max-width: 1150px) {
+  #icone-email{
+      width: 19%;
+      height: 19%;
+  }
+  #icone-git{
+      width: 19%;
+      height: 19%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #icone-email{
+      width: 20%;
+      height: 20%;
+  }
+  #icone-git{
+      width: 20%;
+      height: 20%;
+  }
+}
+
+@media (max-width: 950px) {
+  #icone-email{
+      width: 21%;
+      height: 21%;
+  }
+  #icone-git{
+      width: 21%;
+      height: 21%;
+  }
+}
+
+@media (max-width: 850px) {
+  #icone-email{
+      width: 24%;
+      height: 24%;
+  }
+  #icone-git{
+      width: 24%;
+      height: 24%;
+  }
+}
+
+@media (max-width: 750px) {
+  #icone-email{
+      width: 26%;
+      height: 26%;
+  }
+  #icone-git{
+      width: 26%;
+      height: 26%;
+  }
+}
+
+@media (max-width: 600px) {
+  #icone-email{
+      width: 30%;
+      height: 30%;
+  }
+  #icone-git{
+      width: 30%;
+      height: 30%;
+  }
+}
+
+#navbar{
+  transition: top 0.3s;
+  background-color: #967623;
+}
+
+.cards-artigos{
+  opacity: 90%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Images/manoel-2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
