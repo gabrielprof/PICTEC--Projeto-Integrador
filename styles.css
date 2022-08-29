@@ -12,6 +12,11 @@ a:hover{
   font-family: 'Amatic SC', cursive;
 }
 
+.carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
+}
+
 #capa{
   padding-top: 5%;
 }
@@ -20,7 +25,25 @@ a:hover{
   color: #FFE0A3;
   font-family: 'Libre Baskerville', serif;
   text-align: justify;
-  padding-top: 8%;
+  padding-top: 16%;
+}
+
+@media (max-width: 1600px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 14%;
+  }
+}
+
+@media (max-width: 1500px) {
+  #texto-capa{
+    color: #FFE0A3;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    padding-top: 12%;
+  }
 }
 
 @media (max-width: 1360px) {
@@ -28,7 +51,7 @@ a:hover{
     color: #FFE0A3;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-    padding-top: 6%;
+    padding-top: 10%;
   }
 }
 
@@ -37,7 +60,7 @@ a:hover{
     color: #FFE0A3;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-    padding-top: 3%;
+    padding-top: 8%;
   }
 }
 
@@ -46,16 +69,7 @@ a:hover{
     color: #FFE0A3;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 1016px) {
-  #texto-capa{
-    color: #FFE0A3;
-    font-family: 'Libre Baskerville', serif;
-    text-align: justify;
-    padding-top: 2%;
+    padding-top: 6%;
   }
 }
 
@@ -65,7 +79,7 @@ a:hover{
     color: #FFE0A3;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
-    padding-top: 2%;
+    padding-top: 6%;
   }
 }
 
@@ -77,44 +91,98 @@ a:hover{
   font-family: 'Nothing You Could Do', cursive;
   color: #FFC34E;
   font-size: 300%;
-  padding-left: 52%;
+  padding-left: 51%;
   padding-top: 7%;
   padding-bottom: 4%;
   min-height: 300px;
-  background-image: url("Images/aspa.png");
+  background-image: url("Images/aspas-marrom.png");
   background-position: 800px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-attachment: fixed;
+}
+
+@media (max-width: 1700px) {
+  #citacao{
+    background-position: 690px;
+  }
+}
+
+@media (max-width: 1650px) {
+  #citacao{
+    background-position: 670px;
+  }
+}
+
+@media (max-width: 1600px) {
+  #citacao{
+    background-position: 640px;
+  }
 }
 
 @media (max-width: 1570px) {
   #citacao{
+    padding-left: 50%;
     background-position: 600px;
+  }
+}
+
+@media (max-width: 1500px) {
+  #citacao{
+    background-position: 570px;
+  }
+}
+
+@media (max-width: 1450px) {
+  #citacao{
+    background-position: 540px;
+  }
+}
+
+@media (max-width: 1400px) {
+  #citacao{
+    background-position: 510px;
+  }
+}
+
+@media (max-width: 1350px) {
+  #citacao{
+    background-position: 480px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #citacao{
+    background-position: 460px;
   }
 }
 
 @media (max-width: 1250px) {
   #citacao{
-    background-position: 500px;
+    background-position: 430px;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1170px) {
   #citacao{
     background-position: 400px;
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1112px) {
   #citacao{
-    background-position: 300px;
+    background-position: 370px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1058px) {
   #citacao{
-    background-position: 200px;
+    background-position: 350px;
+  }
+}
+
+@media (max-width: 1012px) {
+  #citacao{
+    background-image: none;
   }
 }
 
@@ -167,6 +235,10 @@ a:hover{
   padding-bottom: 5%;
 }
 
+#conhecendo-manoel-img-1{
+  width: 100%;
+}
+
 body{
     background-color: #7D3408;
     overflow-x: hidden;
@@ -187,6 +259,13 @@ body{
     color: #CC8A09;
     font-family: font-family: 'Montserrat', sans-serif;
 }
+
+.fundo-cartao-sobre-projeto, .card{
+    background-color: #7D3408;
+    font-size: 90%;
+    border: 0;
+}
+
 
 #titulo-artigos{
   color: #FFE0A3;
@@ -214,6 +293,15 @@ body{
 
 #artigos{
   padding-bottom: 3%;
+}
+
+#background-menino-pipa{
+  background-image: url("Images/aa.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 
 #sobre-nos{
@@ -384,17 +472,21 @@ body{
   }
 }
 
-#navbar{
+#barra-navegacao{
   transition: top 0.3s;
   background-color: #967623;
 }
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+  }
 
 .cards-artigos{
   opacity: 90%;
 }
 
 .cards-artigos:hover{
-  background-color: #FFD788;
+  background-color: black;
   opacity: 90%;
 }
 

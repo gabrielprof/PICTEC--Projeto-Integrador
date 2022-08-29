@@ -7,10 +7,29 @@ $(document).ready(function() {
       $('#carrossel').removeClass('col-7');
       $('#mapa').removeClass('col-7');
       $('#mapa').css("padding-top", 15);
+      $('#primeira-secao-conhecendo-manoel').removeClass('col-8');
+      $('#primeira-secao-conhecendo-manoel').addClass('col-12');
+      $('#txt-primeira-secao-conhecendo-manoel').removeClass('col-4');
+      $('#txt-primeira-secao-conhecendo-manoel').addClass('col-12');
+      $('#segunda-secao-conhecendo-manoel').removeClass('col-6');
+      $('#segunda-secao-conhecendo-manoel').addClass('col-12');
+      $('#txt-segunda-secao-conhecendo-manoel').removeClass('col-6');
+      $('#txt-segunda-secao-conhecendo-manoel').addClass('col-12');
+      $('#txt-primeira-secao-conhecendo-manoel').css("padding-top", 10);
     } else if (larguraTela >= 1001) {
       $('#texto-capa').addClass('col-5');
       $('#carrossel').addClass('col-7');
       $('#mapa').addClass('col-7');
+      $('#mapa').css("padding-top", 0);
+      $('#primeira-secao-conhecendo-manoel').removeClass('col-12');
+      $('#primeira-secao-conhecendo-manoel').addClass('col-8');
+      $('#txt-primeira-secao-conhecendo-manoel').removeClass('col-12');
+      $('#txt-primeira-secao-conhecendo-manoel').addClass('col-4');
+      $('#txt-primeira-secao-conhecendo-manoel').css("padding-top", 0);
+      $('#segunda-secao-conhecendo-manoel').removeClass('col-12');
+      $('#segunda-secao-conhecendo-manoel').addClass('col-6');
+      $('#txt-segunda-secao-conhecendo-manoel').removeClass('col-12');
+      $('#txt-segunda-secao-conhecendo-manoel').addClass('col-6');
     };
   };
 
@@ -37,10 +56,23 @@ $(document).ready(function() {
   window.onscroll = function() {
   var atualPosicaoScroll = window.pageYOffset;
     if (posicaoScrollAnterior > atualPosicaoScroll) {
-      document.getElementById("navbar").style.top = "0";
+      document.getElementById("barra-navegacao").style.top = "0";
     } else {
-      document.getElementById("navbar").style.top = "-60px";
+      document.getElementById("barra-navegacao").style.top = "-60px";
     }
     posicaoScrollAnterior = atualPosicaoScroll;
   }
+
+  var iterador = 0;
+  var texto = 'Laboratório de Linguagens do Pantanal';
+  var velocidade = 50;
+
+  function escreveTexto() {
+    if (iterador < texto.length) {
+      document.getElementById("titulo").innerHTML += texto.charAt(iterador);
+      iterador++;
+      setTimeout(escreveTexto, velocidade);
+    }
+  }
+  escreveTexto();
 });
